@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VJNetworkManager"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This framework is use to call server APIs"
   spec.description  = "This framework is use to call server APIs and handle response data"
   spec.homepage     = "https://github.com/Vishwajeet-Kumar32/VJNetworkManager"
