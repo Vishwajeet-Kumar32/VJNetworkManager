@@ -11,8 +11,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/Vishwajeet-Kumar32/VJNetworkManager.git", :tag => spec.version.to_s }
   spec.source_files  = "Classes", "VJNetworkManager/**/*.{swift}"
-  spec.swift_version = "6.0"
-
-
+  spec.swift_version = "5.0"
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
+ 
