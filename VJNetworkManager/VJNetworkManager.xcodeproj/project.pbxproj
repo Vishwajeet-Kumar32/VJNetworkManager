@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87749D532D918218004B2926 /* VJNetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87749D482D918218004B2926 /* VJNetworkManager.framework */; };
 		87AEC97B2D92667500F1C9AC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9712D92667500F1C9AC /* String.swift */; };
 		87AEC97C2D92667500F1C9AC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9732D92667500F1C9AC /* Endpoint.swift */; };
 		87AEC97D2D92667500F1C9AC /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9742D92667500F1C9AC /* HTTPClient.swift */; };
@@ -17,19 +16,8 @@
 		87AEC9812D92667500F1C9AC /* VJNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AEC9782D92667500F1C9AC /* VJNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		87749D542D918218004B2926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87749D3F2D918218004B2926 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87749D472D918218004B2926;
-			remoteInfo = VJNetworkManager;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		87749D482D918218004B2926 /* VJNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VJNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87749D522D918218004B2926 /* VJNetworkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VJNetworkManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AEC9712D92667500F1C9AC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		87AEC9732D92667500F1C9AC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		87AEC9742D92667500F1C9AC /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
@@ -44,14 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87749D4F2D918218004B2926 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87749D532D918218004B2926 /* VJNetworkManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				87749D482D918218004B2926 /* VJNetworkManager.framework */,
-				87749D522D918218004B2926 /* VJNetworkManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,26 +118,6 @@
 			productReference = 87749D482D918218004B2926 /* VJNetworkManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		87749D512D918218004B2926 /* VJNetworkManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87749D602D918218004B2926 /* Build configuration list for PBXNativeTarget "VJNetworkManagerTests" */;
-			buildPhases = (
-				87749D4E2D918218004B2926 /* Sources */,
-				87749D4F2D918218004B2926 /* Frameworks */,
-				87749D502D918218004B2926 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				87749D552D918218004B2926 /* PBXTargetDependency */,
-			);
-			name = VJNetworkManagerTests;
-			packageProductDependencies = (
-			);
-			productName = VJNetworkManagerTests;
-			productReference = 87749D522D918218004B2926 /* VJNetworkManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,9 +129,6 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					87749D472D918218004B2926 = {
-						CreatedOnToolsVersion = 16.2;
-					};
-					87749D512D918218004B2926 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -192,20 +148,12 @@
 			projectRoot = "";
 			targets = (
 				87749D472D918218004B2926 /* VJNetworkManager */,
-				87749D512D918218004B2926 /* VJNetworkManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87749D462D918218004B2926 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87749D502D918218004B2926 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,22 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87749D4E2D918218004B2926 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		87749D552D918218004B2926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87749D472D918218004B2926 /* VJNetworkManager */;
-			targetProxy = 87749D542D918218004B2926 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		87749D5C2D918218004B2926 /* Debug */ = {
@@ -439,38 +372,6 @@
 			};
 			name = Release;
 		};
-		87749D612D918218004B2926 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5NV8XFN9EY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeet.VJNetworkManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		87749D622D918218004B2926 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5NV8XFN9EY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeet.VJNetworkManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,15 +389,6 @@
 			buildConfigurations = (
 				87749D5C2D918218004B2926 /* Debug */,
 				87749D5D2D918218004B2926 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87749D602D918218004B2926 /* Build configuration list for PBXNativeTarget "VJNetworkManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87749D612D918218004B2926 /* Debug */,
-				87749D622D918218004B2926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
