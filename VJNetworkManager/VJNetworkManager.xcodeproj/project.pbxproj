@@ -15,7 +15,6 @@
 		87AEC97F2D92667500F1C9AC /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9762D92667500F1C9AC /* RequestMethod.swift */; };
 		87AEC9802D92667500F1C9AC /* VJNetworkManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9792D92667500F1C9AC /* VJNetworkManager.docc */; };
 		87AEC9812D92667500F1C9AC /* VJNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AEC9782D92667500F1C9AC /* VJNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87AEC9842D92667D00F1C9AC /* VJNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEC9822D92667D00F1C9AC /* VJNetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 		87AEC9762D92667500F1C9AC /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
 		87AEC9782D92667500F1C9AC /* VJNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VJNetworkManager.h; sourceTree = "<group>"; };
 		87AEC9792D92667500F1C9AC /* VJNetworkManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VJNetworkManager.docc; sourceTree = "<group>"; };
-		87AEC9822D92667D00F1C9AC /* VJNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VJNetworkManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 			children = (
 				87AEC97A2D92667500F1C9AC /* VJNetworkManager */,
 				87749D492D918218004B2926 /* Products */,
-				87AEC9832D92667D00F1C9AC /* VJNetworkManagerTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,14 +103,6 @@
 				87AEC9792D92667500F1C9AC /* VJNetworkManager.docc */,
 			);
 			path = VJNetworkManager;
-			sourceTree = "<group>";
-		};
-		87AEC9832D92667D00F1C9AC /* VJNetworkManagerTests */ = {
-			isa = PBXGroup;
-			children = (
-				87AEC9822D92667D00F1C9AC /* VJNetworkManagerTests.swift */,
-			);
-			path = VJNetworkManagerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87AEC9842D92667D00F1C9AC /* VJNetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
